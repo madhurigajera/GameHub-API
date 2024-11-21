@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GameHub.Data.Migrations
 {
     [DbContext(typeof(GameHubContext))]
-    [Migration("20241120185633_DeleteReleaseDateToGame")]
-    partial class DeleteReleaseDateToGame
+    [Migration("20241121043335_IntialScript_Game")]
+    partial class IntialScript_Game
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
